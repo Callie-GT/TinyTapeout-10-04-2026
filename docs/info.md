@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Have a button to control the chip to drive a buzzer, which plays a pre-defined melody; push button to start and push again to stop
 
 ## How to test
 
-Explain how to use your project
+- At initialization, the LED should be on and no music is played
+- Once the button is pressed, the chip will continue to drive the buzzer to play a melody repeatedly
+- At any point, if the button is pressed, the music play status will toggle (on->off, or off-on)
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Buzzer, LED, push-button
